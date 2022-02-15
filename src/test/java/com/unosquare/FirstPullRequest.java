@@ -19,7 +19,7 @@ public class FirstPullRequest {
   public void http_objects() {
 	RestAssured.baseURI = "https://reqres.in/api/";
 	RequestSpecification httpRequest = RestAssured.given();
-	Response response = httpRequest.get("/users/2");
+	Response response = httpRequest.get("/unknown/2");
 	
 	int statusCode = response.getStatusCode();
 
@@ -27,20 +27,16 @@ public class FirstPullRequest {
 	Assert.assertEquals(statusCode,200);
 	Reporter.log("Sucess 200 validation");
 	
-	response.then().body("data.first_name", equalTo("Janet"));
+	response.then().
+					body("data.id", equalTo(2)).
+					body("data.name", equalTo("fuchsia rose")).
+					body("data.year", equalTo(2001)).
+					body("data.color", equalTo("#C74375")).
+					body("data.pantone_value", equalTo("17-2031"));
+							
 	Reporter.log(response.body().asString());
   }
   
-  @Test
-  public void given_when_then() {
-	  
-	  given()
-	  .when()
-	  	.get("https://reqres.in/api/users/2")
-	  		.then().assertThat().statusCode(200).assertThat().contentType(ContentType.JSON);
-	  
-	  Reporter.log("Sucess 200 validation");
-}
   @BeforeMethod
   public void beforeMethod() {
   }
