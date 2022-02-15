@@ -37,6 +37,22 @@ public class FirstPullRequest {
 	Reporter.log(response.body().asString());
   }
   
+  @Test
+  public void given_when_then() {
+	  
+	  given()
+	  .when()
+	  	.get("https://reqres.in/api/unknown/2")
+	  		.then().assertThat().statusCode(200).assertThat()
+	  														 .contentType(ContentType.JSON)
+	  														 .body("data.id", equalTo(2))
+	  														 .body("data.name", equalTo("fuchsia rose"))
+	  														 .body("data.year", equalTo(2001))
+	  														 .body("data.color", equalTo("#C74375"))
+	  														 .body("data.pantone_value", equalTo("17-2031"));
+	  
+	  Reporter.log("Sucess 200 validation");
+}
   @BeforeMethod
   public void beforeMethod() {
   }
