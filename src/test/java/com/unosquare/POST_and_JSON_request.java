@@ -30,8 +30,8 @@ public class POST_and_JSON_request {
 		Assert.assertEquals(statusCode,201);
 		
 		response.then().assertThat()
-						.body("name", equalTo("Athziri"))
-						.body("job", equalTo("QA"));
+					   .body("name", equalTo("Athziri"))
+					   .body("job", equalTo("QA"));
 		
 		Reporter.log("Response body: " + response.body().asString());
 		Reporter.log("Response code: " + statusCode);
@@ -53,8 +53,8 @@ public class POST_and_JSON_request {
 		int statusCode = response.getStatusCode();
 		
 		response.then().assertThat()
-	      .statusCode(200)
-	      .body("$", hasKey("token"));
+				       .statusCode(200)
+				       .body("$", hasKey("token"));
 		
 		Reporter.log("Response body: " + response.body().asString());
 		Reporter.log("Response code: " + statusCode);
