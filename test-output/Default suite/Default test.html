@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Feb 18 12:32:04 CST 2022</td>
+<td>Started on:</td><td>Mon Feb 21 07:52:38 CST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>3 seconds (3075 ms)</td>
+<tr><td>Total time:</td><td>5 seconds (5783 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,35 +75,131 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.unosquare.POST_and_JSON_request.create()'><b>create</b><br>Test class: com.unosquare.POST_and_JSON_request<br/>
-<a href="#Output-1063494931" onClick='toggleBox("Output-1063494931", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.unosquare.ApplyingEncapsulation.PutUpdate()'><b>PutUpdate</b><br>Test class: com.unosquare.ApplyingEncapsulation<br/>
+<a href="#Output-884868698" onClick='toggleBox("Output-884868698", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1063494931" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1063494931">
-Response body: {"name":"Athziri","job":"QA","id":"704","createdAt":"2022-02-18T18:31:46.040Z"}<br/>
-Response code: 201<br/>
-JSON body: src\main\resources\createUser.json<br/>
-URL: https://reqres.in/api<br/>
-</div>
-</td>
-<td></td>
-<td>2</td>
-<td>com.unosquare.POST_and_JSON_request@4e7912d8</td></tr>
-<tr>
-<td title='com.unosquare.POST_and_JSON_request.login()'><b>login</b><br>Test class: com.unosquare.POST_and_JSON_request<br/>
-<a href="#Output-903218049" onClick='toggleBox("Output-903218049", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-903218049" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-903218049">
-Response body: {"token":"QpwL5tke4Pnpja7X4"}<br/>
+<a href="#Output-884868698" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-884868698">
+Response body: {"name":"Athziri","job":"QA","updatedAt":"2022-02-21T13:52:22.086Z"}<br/>
 Response code: 200<br/>
-JSON body: src\main\resources\login.json<br/>
 URL: https://reqres.in/api<br/>
 </div>
 </td>
 <td></td>
 <td>0</td>
-<td>com.unosquare.POST_and_JSON_request@4e7912d8</td></tr>
+<td>com.unosquare.ApplyingEncapsulation@483f6d77</td></tr>
+<tr>
+<td title='com.unosquare.ApplyingEncapsulation.PostCreate()'><b>PostCreate</b><br>Test class: com.unosquare.ApplyingEncapsulation<br/>
+<a href="#Output-99195804" onClick='toggleBox("Output-99195804", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-99195804" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-99195804">
+Response body: {"name":"Athziri","job":"QA","id":"906","createdAt":"2022-02-21T13:52:19.829Z"}<br/>
+Response code: 201<br/>
+URL: https://reqres.in/api<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.ApplyingEncapsulation@483f6d77</td></tr>
+<tr>
+<td title='com.unosquare.ApplyingEncapsulation.PostRegisterUnsuccessfu()'><b>PostRegisterUnsuccessfu</b><br>Test class: com.unosquare.ApplyingEncapsulation<br/>
+<a href="#Output-65567135" onClick='toggleBox("Output-65567135", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-65567135" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-65567135">
+Response body: {"error":"Missing email or username"}<br/>
+Response code: 400<br/>
+URL: https://reqres.in/api<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.ApplyingEncapsulation@483f6d77</td></tr>
+<tr>
+<td title='com.unosquare.ApplyingEncapsulation.GetListUsers()'><b>GetListUsers</b><br>Test class: com.unosquare.ApplyingEncapsulation<br/>
+<a href="#Output-1647509467" onClick='toggleBox("Output-1647509467", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1647509467" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1647509467">
+Response body: {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}<br/>
+Response code: 200<br/>
+URL: https://reqres.in/api<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.unosquare.ApplyingEncapsulation@483f6d77</td></tr>
+<tr>
+<td title='com.unosquare.ApplyingEncapsulation.GetUserNotFound()'><b>GetUserNotFound</b><br>Test class: com.unosquare.ApplyingEncapsulation<br/>
+<a href="#Output-1145023109" onClick='toggleBox("Output-1145023109", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1145023109" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1145023109">
+Response body: {}<br/>
+Response code: 404<br/>
+URL: https://reqres.in/api<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.ApplyingEncapsulation@483f6d77</td></tr>
+<tr>
+<td title='com.unosquare.ApplyingEncapsulation.PostRegister()'><b>PostRegister</b><br>Test class: com.unosquare.ApplyingEncapsulation<br/>
+<a href="#Output-1250950517" onClick='toggleBox("Output-1250950517", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1250950517" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1250950517">
+Response body: {"id":4,"token":"QpwL5tke4Pnpja7X4"}<br/>
+Response code: 200<br/>
+URL: https://reqres.in/api<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.ApplyingEncapsulation@483f6d77</td></tr>
+<tr>
+<td title='com.unosquare.ApplyingEncapsulation.GetUserResource()'><b>GetUserResource</b><br>Test class: com.unosquare.ApplyingEncapsulation<br/>
+<a href="#Output-540876179" onClick='toggleBox("Output-540876179", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-540876179" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-540876179">
+Response body: {"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}<br/>
+Response code: 200<br/>
+URL: https://reqres.in/api<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.ApplyingEncapsulation@483f6d77</td></tr>
+<tr>
+<td title='com.unosquare.ApplyingEncapsulation.GetUser()'><b>GetUser</b><br>Test class: com.unosquare.ApplyingEncapsulation<br/>
+<a href="#Output-131532344" onClick='toggleBox("Output-131532344", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-131532344" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-131532344">
+Response body: {"data":{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}<br/>
+Response code: 200<br/>
+URL: https://reqres.in/api<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.ApplyingEncapsulation@483f6d77</td></tr>
+<tr>
+<td title='com.unosquare.ApplyingEncapsulation.PostLogin()'><b>PostLogin</b><br>Test class: com.unosquare.ApplyingEncapsulation<br/>
+<a href="#Output-1645557354" onClick='toggleBox("Output-1645557354", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1645557354" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1645557354">
+Response body: {"token":"QpwL5tke4Pnpja7X4"}<br/>
+Response code: 200<br/>
+URL: https://reqres.in/api<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.ApplyingEncapsulation@483f6d77</td></tr>
 </table><p>
 </body>
 </html>

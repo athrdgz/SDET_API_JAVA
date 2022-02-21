@@ -6,7 +6,7 @@
       <class name="com.unosquare.ApplyingEncapsulation">
         <methods>
           <include name="beforeSuite"/>
-          <include name="PostLogin"/>
+          <include name="PutUpdate"/>
         </methods>
       </class> <!-- com.unosquare.ApplyingEncapsulation -->
     </classes>
