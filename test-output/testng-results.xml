@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Response body: {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+    </line>
+    <line>
+      <![CDATA[Response code: 200]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api]]>
+    </line>
+    <line>
+      <![CDATA[Response body: {"data":{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+    </line>
+    <line>
+      <![CDATA[Response code: 200]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api]]>
+    </line>
+    <line>
+      <![CDATA[Response body: {}]]>
+    </line>
+    <line>
+      <![CDATA[Response code: 404]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api]]>
+    </line>
+    <line>
+      <![CDATA[Response body: {"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+    </line>
+    <line>
+      <![CDATA[Response code: 200]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api]]>
+    </line>
+    <line>
+      <![CDATA[Response body: {"name":"Athziri","job":"QA","id":"906","createdAt":"2022-02-21T13:52:19.829Z"}]]>
+    </line>
+    <line>
+      <![CDATA[Response code: 201]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api]]>
+    </line>
     <line>
       <![CDATA[Response body: {"token":"QpwL5tke4Pnpja7X4"}]]>
     </line>
@@ -10,17 +55,109 @@
     <line>
       <![CDATA[URL: https://reqres.in/api]]>
     </line>
+    <line>
+      <![CDATA[Response body: {"id":4,"token":"QpwL5tke4Pnpja7X4"}]]>
+    </line>
+    <line>
+      <![CDATA[Response code: 200]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api]]>
+    </line>
+    <line>
+      <![CDATA[Response body: {"error":"Missing email or username"}]]>
+    </line>
+    <line>
+      <![CDATA[Response code: 400]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api]]>
+    </line>
+    <line>
+      <![CDATA[Response body: {"name":"Athziri","job":"QA","updatedAt":"2022-02-21T13:52:22.086Z"}]]>
+    </line>
+    <line>
+      <![CDATA[Response code: 200]]>
+    </line>
+    <line>
+      <![CDATA[URL: https://reqres.in/api]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-02-18T18:38:07 CST" name="Default suite" finished-at="2022-02-18T18:38:09 CST" duration-ms="1987">
+  <suite started-at="2022-02-21T07:52:38 CST" name="Default suite" finished-at="2022-02-21T07:52:44 CST" duration-ms="5783">
     <groups>
     </groups>
-    <test started-at="2022-02-18T18:38:07 CST" name="Default test" finished-at="2022-02-18T18:38:09 CST" duration-ms="1987">
+    <test started-at="2022-02-21T07:52:38 CST" name="Default test" finished-at="2022-02-21T07:52:44 CST" duration-ms="5783">
       <class name="com.unosquare.ApplyingEncapsulation">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.unosquare.ApplyingEncapsulation@3c73951]" started-at="2022-02-18T18:38:07 CST" name="beforeSuite" finished-at="2022-02-18T18:38:07 CST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.unosquare.ApplyingEncapsulation@483f6d77]" started-at="2022-02-21T07:52:38 CST" name="beforeSuite" finished-at="2022-02-21T07:52:38 CST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method signature="PostLogin()[pri:0, instance:com.unosquare.ApplyingEncapsulation@3c73951]" started-at="2022-02-18T18:38:07 CST" name="PostLogin" finished-at="2022-02-18T18:38:09 CST" duration-ms="1968" status="PASS">
+        <test-method signature="GetListUsers()[pri:0, instance:com.unosquare.ApplyingEncapsulation@483f6d77]" started-at="2022-02-21T07:52:38 CST" name="GetListUsers" finished-at="2022-02-21T07:52:40 CST" duration-ms="1796" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response body: {"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"email":"george.bluth@reqres.in","first_name":"George","last_name":"Bluth","avatar":"https://reqres.in/img/faces/1-image.jpg"},{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://reqres.in/img/faces/3-image.jpg"},{"id":4,"email":"eve.holt@reqres.in","first_name":"Eve","last_name":"Holt","avatar":"https://reqres.in/img/faces/4-image.jpg"},{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+            </line>
+            <line>
+              <![CDATA[Response code: 200]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetListUsers -->
+        <test-method signature="GetUser()[pri:0, instance:com.unosquare.ApplyingEncapsulation@483f6d77]" started-at="2022-02-21T07:52:40 CST" name="GetUser" finished-at="2022-02-21T07:52:40 CST" duration-ms="248" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response body: {"data":{"id":5,"email":"charles.morris@reqres.in","first_name":"Charles","last_name":"Morris","avatar":"https://reqres.in/img/faces/5-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+            </line>
+            <line>
+              <![CDATA[Response code: 200]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetUser -->
+        <test-method signature="GetUserNotFound()[pri:0, instance:com.unosquare.ApplyingEncapsulation@483f6d77]" started-at="2022-02-21T07:52:40 CST" name="GetUserNotFound" finished-at="2022-02-21T07:52:41 CST" duration-ms="585" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response body: {}]]>
+            </line>
+            <line>
+              <![CDATA[Response code: 404]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetUserNotFound -->
+        <test-method signature="GetUserResource()[pri:0, instance:com.unosquare.ApplyingEncapsulation@483f6d77]" started-at="2022-02-21T07:52:41 CST" name="GetUserResource" finished-at="2022-02-21T07:52:41 CST" duration-ms="274" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response body: {"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+            </line>
+            <line>
+              <![CDATA[Response code: 200]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GetUserResource -->
+        <test-method signature="PostCreate()[pri:0, instance:com.unosquare.ApplyingEncapsulation@483f6d77]" started-at="2022-02-21T07:52:41 CST" name="PostCreate" finished-at="2022-02-21T07:52:42 CST" duration-ms="595" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response body: {"name":"Athziri","job":"QA","id":"906","createdAt":"2022-02-21T13:52:19.829Z"}]]>
+            </line>
+            <line>
+              <![CDATA[Response code: 201]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PostCreate -->
+        <test-method signature="PostLogin()[pri:0, instance:com.unosquare.ApplyingEncapsulation@483f6d77]" started-at="2022-02-21T07:52:42 CST" name="PostLogin" finished-at="2022-02-21T07:52:42 CST" duration-ms="543" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Response body: {"token":"QpwL5tke4Pnpja7X4"}]]>
@@ -33,6 +170,45 @@
             </line>
           </reporter-output>
         </test-method> <!-- PostLogin -->
+        <test-method signature="PostRegister()[pri:0, instance:com.unosquare.ApplyingEncapsulation@483f6d77]" started-at="2022-02-21T07:52:42 CST" name="PostRegister" finished-at="2022-02-21T07:52:43 CST" duration-ms="565" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response body: {"id":4,"token":"QpwL5tke4Pnpja7X4"}]]>
+            </line>
+            <line>
+              <![CDATA[Response code: 200]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PostRegister -->
+        <test-method signature="PostRegisterUnsuccessfu()[pri:0, instance:com.unosquare.ApplyingEncapsulation@483f6d77]" started-at="2022-02-21T07:52:43 CST" name="PostRegisterUnsuccessfu" finished-at="2022-02-21T07:52:43 CST" duration-ms="553" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response body: {"error":"Missing email or username"}]]>
+            </line>
+            <line>
+              <![CDATA[Response code: 400]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PostRegisterUnsuccessfu -->
+        <test-method signature="PutUpdate()[pri:0, instance:com.unosquare.ApplyingEncapsulation@483f6d77]" started-at="2022-02-21T07:52:43 CST" name="PutUpdate" finished-at="2022-02-21T07:52:44 CST" duration-ms="587" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Response body: {"name":"Athziri","job":"QA","updatedAt":"2022-02-21T13:52:22.086Z"}]]>
+            </line>
+            <line>
+              <![CDATA[Response code: 200]]>
+            </line>
+            <line>
+              <![CDATA[URL: https://reqres.in/api]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PutUpdate -->
       </class> <!-- com.unosquare.ApplyingEncapsulation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
